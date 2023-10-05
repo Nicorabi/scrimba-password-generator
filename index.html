@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="header-one">Generate a</h1>
+      <h1 id="header-two">random password</h1>
+      <p id="paragraph-one">Never use an insecure password again.</p>
+      <button id="button-one" onclick="buttonOneClick()">
+        Generate passwords
+      </button>
+      <hr />
+      <div id="placeholder-container">
+        <div id="password-one">
+          <p
+            id="container-paragraph-one"
+            onclick="containerParagraphOneClick()"
+          ></p>
+        </div>
+        <div id="password-two">
+          <p
+            id="container-paragraph-two"
+            onclick="containerParagraphTwoClick()"
+          ></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
