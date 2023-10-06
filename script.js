@@ -1,6 +1,5 @@
 let containerParagraphOne = document.getElementById('container-paragraph-one');
 let containerParagraphTwo = document.getElementById('container-paragraph-two');
-let buttonOne = document.getElementById('button-one');
 
 function randomPassword() {
     let str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*';
