@@ -12,6 +12,6 @@ function randomPassword() {
 }
 
 function render() {
-    containerParagraphOne.textContent = randomPassword();;
+    containerParagraphOne.textContent = randomPassword();
     containerParagraphTwo.textContent = randomPassword();
 }
